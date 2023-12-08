@@ -1,0 +1,279 @@
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 1200px;
+    margin:auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+   
+  }
+  
+#navbar2 {
+    overflow: hidden;
+    background-color: #7e7c7c;
+    width: 1200px;
+    margin:auto;
+    
+  }
+  
+  /* Navbar links */
+#navbar2 a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  /* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+#slider {
+    margin-top: 5px;
+    margin-bottom: 10px;   
+  }
+#content {
+  align-content: center;
+  width: 1200px;
+  position: relative;
+  margin: auto;
+  line-height: 1.5;
+
+
+}
+  #footer{
+  align-content: center;
+  width: 1200px;
+  position: relative;
+  margin: auto;
+  line-height: 1.5;
+}
+/* li{
+  list-style-type: none;
+  float: left;
+} */
+.markalar{
+  float: left;
+  width: 390px;
+  height: 250px;
+  background-color: #ddd8d8;
+  align-content: center;
+  margin: auto;
+  line-height: 1.0;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 20px;
+  margin-right: 10px;
+    
+  
+}
+.markalar a{
+  float: left;
+  background-color: #ddd8d8;
+  align-content: left;
+  width: 300px;
+  line-height: 1.0;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+.urunler{
+  float: left;
+  width: 390px;
+  height: 250px;
+  background-color: #ddd8d8;
+  align-content: center;
+  width: 400px;
+  margin: auto;
+  line-height: 1.0;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom:20px;
+  margin-right: 10px;
+  
+}
+.urunler a{
+  float: left;
+  background-color: #ddd8d8;
+  align-content: left;
+  width: 300px;
+  line-height: 1.0;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
+}
+.iletisim{
+  float: left;
+  width: 380px;
+  height: 250px;
+  background-color: #ddd8d8;
+  align-content: center;
+  width: 400px;
+  margin: auto;
+  line-height: 1.0;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom:20px;
+  
+}
+.iletisim a{
+  float: left;
+  background-color: #ddd8d8;
+  align-content: left;
+  width: 300px;
+  line-height: 1.0;
+  font-style: normal;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+.blower_bolum {
+  width: 1200px;
+  height: 400px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+.desmi_bolum {
+  width: 1200px;
+  height: 400px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+.lowara_bolum {
+  width: 1200px;
+  height: 400px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+.nederman_bolum {
+  width: 1200px;
+  height: 400px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+.hakkımızda_bolum {
+  width: 1200px;
+  height: 400px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+/* .iletisim_bolum {
+  width: 1200px;
+  height: 400px;
+  margin:auto;
+  margin-bottom: 20px;
+} */
+
+.container1 {
+  float: left;
+  position: relative;
+  max-width: 500px;
+  margin-bottom: 20px;
+
+}
+
+.container2 {
+  float: left;
+  position: relative;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+/* .container1 img {vertical-align: middle;} */
+
+.container1 .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 40%;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.article1{
+  float: left;
+  width: 400px;
+  height: auto;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.iletisim_bolum{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 1200px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 50px;
+
+  
+}
